@@ -81,13 +81,13 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     },
 
-    'mysql': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_notes',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1'
-    }
+    # 'mysql': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'django_notes',
+    #     'USER': 'root',
+    #     'PASSWORD': '',
+    #     'HOST': '127.0.0.1'
+    # }
 }
 
 
